@@ -1,0 +1,92 @@
+{
+  "claim1": {
+    "us.anthropic.claude-sonnet-4-6": {
+      "latency_seconds": 3.434,
+      "output_length": 955,
+      "fields_found": 5,
+      "total_required_fields": 5,
+      "extraction_completeness": 1.0,
+      "parse_successful": true,
+      "validation_passed": true,
+      "output_sample": "```json\n{\n  \"claimant_name\": \"Sarah Mitchell Johnson\",\n  \"policy_number\": \"AUT-2024-78432\",\n  \"incident_date\": \"March 12, 2024\",\n  \"claim_amount\": \"$19,650\",\n  \"incident_description\": \"On the evening ..."
+    },
+    "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "latency_seconds": 1.977,
+      "output_length": 830,
+      "fields_found": 5,
+      "total_required_fields": 5,
+      "extraction_completeness": 1.0,
+      "parse_successful": true,
+      "validation_passed": true,
+      "output_sample": "```json\n{\n  \"claimant_name\": \"Sarah Mitchell Johnson\",\n  \"policy_number\": \"AUT-2024-78432\",\n  \"incident_date\": \"March 12, 2024\",\n  \"claim_amount\": \"$15,200\",\n  \"incident_description\": \"On the evening ..."
+    },
+    "_summary": {
+      "fastest_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "fastest_latency": 1.977,
+      "most_complete_model": "us.anthropic.claude-sonnet-4-6",
+      "most_complete_fields": 5,
+      "models_tested": 2,
+      "models_successful": 2
+    }
+  },
+  "claim2": {
+    "us.anthropic.claude-sonnet-4-6": {
+      "latency_seconds": 2.993,
+      "output_length": 657,
+      "fields_found": 5,
+      "total_required_fields": 5,
+      "extraction_completeness": 1.0,
+      "parse_successful": true,
+      "validation_passed": true,
+      "output_sample": "```json\n{\n  \"claimant_name\": \"Robert James Chen\",\n  \"policy_number\": \"HOM-2023-55219\",\n  \"incident_date\": \"January 25, 2024\",\n  \"claim_amount\": \"$8,500\",\n  \"incident_description\": \"During a severe win..."
+    },
+    "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "latency_seconds": 2.424,
+      "output_length": 734,
+      "fields_found": 5,
+      "total_required_fields": 5,
+      "extraction_completeness": 1.0,
+      "parse_successful": true,
+      "validation_passed": true,
+      "output_sample": "```json\n{\n  \"claimant_name\": \"Robert James Chen\",\n  \"policy_number\": \"HOM-2023-55219\",\n  \"incident_date\": \"January 25, 2024\",\n  \"claim_amount\": \"$8,500\",\n  \"incident_description\": \"During the severe w..."
+    },
+    "_summary": {
+      "fastest_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "fastest_latency": 2.424,
+      "most_complete_model": "us.anthropic.claude-sonnet-4-6",
+      "most_complete_fields": 5,
+      "models_tested": 2,
+      "models_successful": 2
+    }
+  },
+  "claim3": {
+    "us.anthropic.claude-sonnet-4-6": {
+      "latency_seconds": 3.651,
+      "output_length": 897,
+      "fields_found": 5,
+      "total_required_fields": 5,
+      "extraction_completeness": 1.0,
+      "parse_successful": true,
+      "validation_passed": true,
+      "output_sample": "```json\n{\n  \"claimant_name\": \"Maria Elena Vasquez\",\n  \"policy_number\": \"RNT-2024-12087\",\n  \"incident_date\": \"February 7, 2024\",\n  \"claim_amount\": \"$3,200\",\n  \"incident_description\": \"Claimant returned..."
+    },
+    "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "latency_seconds": 2.743,
+      "output_length": 733,
+      "fields_found": 5,
+      "total_required_fields": 5,
+      "extraction_completeness": 1.0,
+      "parse_successful": true,
+      "validation_passed": true,
+      "output_sample": "```json\n{\n  \"claimant_name\": \"Maria Elena Vasquez\",\n  \"policy_number\": \"RNT-2024-12087\",\n  \"incident_date\": \"February 7, 2024\",\n  \"claim_amount\": \"$3,200\",\n  \"incident_description\": \"Burglary of apart..."
+    },
+    "_summary": {
+      "fastest_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "fastest_latency": 2.743,
+      "most_complete_model": "us.anthropic.claude-sonnet-4-6",
+      "most_complete_fields": 5,
+      "models_tested": 2,
+      "models_successful": 2
+    }
+  }
+}

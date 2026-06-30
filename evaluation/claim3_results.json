@@ -1,0 +1,30 @@
+{
+  "us.anthropic.claude-sonnet-4-6": {
+    "latency_seconds": 3.821,
+    "output_length": 841,
+    "fields_found": 5,
+    "total_required_fields": 5,
+    "extraction_completeness": 1.0,
+    "parse_successful": true,
+    "validation_passed": true,
+    "output_sample": "```json\n{\n  \"claimant_name\": \"Maria Elena Vasquez\",\n  \"policy_number\": \"RNT-2024-12087\",\n  \"incident_date\": \"February 7, 2024\",\n  \"claim_amount\": \"$3,200\",\n  \"incident_description\": \"Claimant returned..."
+  },
+  "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "latency_seconds": 2.161,
+    "output_length": 733,
+    "fields_found": 5,
+    "total_required_fields": 5,
+    "extraction_completeness": 1.0,
+    "parse_successful": true,
+    "validation_passed": true,
+    "output_sample": "```json\n{\n  \"claimant_name\": \"Maria Elena Vasquez\",\n  \"policy_number\": \"RNT-2024-12087\",\n  \"incident_date\": \"February 7, 2024\",\n  \"claim_amount\": \"$3,200\",\n  \"incident_description\": \"Burglary of apart..."
+  },
+  "_summary": {
+    "fastest_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "fastest_latency": 2.161,
+    "most_complete_model": "us.anthropic.claude-sonnet-4-6",
+    "most_complete_fields": 5,
+    "models_tested": 2,
+    "models_successful": 2
+  }
+}

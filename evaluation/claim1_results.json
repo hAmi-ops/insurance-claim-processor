@@ -1,0 +1,30 @@
+{
+  "us.anthropic.claude-sonnet-4-6": {
+    "latency_seconds": 3.249,
+    "output_length": 980,
+    "fields_found": 5,
+    "total_required_fields": 5,
+    "extraction_completeness": 1.0,
+    "parse_successful": true,
+    "validation_passed": true,
+    "output_sample": "```json\n{\n  \"claimant_name\": \"Sarah Mitchell Johnson\",\n  \"policy_number\": \"AUT-2024-78432\",\n  \"incident_date\": \"March 12, 2024\",\n  \"claim_amount\": \"$19,650\",\n  \"incident_description\": \"On the evening ..."
+  },
+  "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "latency_seconds": 5.832,
+    "output_length": 830,
+    "fields_found": 5,
+    "total_required_fields": 5,
+    "extraction_completeness": 1.0,
+    "parse_successful": true,
+    "validation_passed": true,
+    "output_sample": "```json\n{\n  \"claimant_name\": \"Sarah Mitchell Johnson\",\n  \"policy_number\": \"AUT-2024-78432\",\n  \"incident_date\": \"March 12, 2024\",\n  \"claim_amount\": \"$15,200\",\n  \"incident_description\": \"On the evening ..."
+  },
+  "_summary": {
+    "fastest_model": "us.anthropic.claude-sonnet-4-6",
+    "fastest_latency": 3.249,
+    "most_complete_model": "us.anthropic.claude-sonnet-4-6",
+    "most_complete_fields": 5,
+    "models_tested": 2,
+    "models_successful": 2
+  }
+}

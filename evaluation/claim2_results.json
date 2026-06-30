@@ -1,0 +1,30 @@
+{
+  "us.anthropic.claude-sonnet-4-6": {
+    "latency_seconds": 2.614,
+    "output_length": 657,
+    "fields_found": 5,
+    "total_required_fields": 5,
+    "extraction_completeness": 1.0,
+    "parse_successful": true,
+    "validation_passed": true,
+    "output_sample": "```json\n{\n  \"claimant_name\": \"Robert James Chen\",\n  \"policy_number\": \"HOM-2023-55219\",\n  \"incident_date\": \"January 25, 2024\",\n  \"claim_amount\": \"$8,500\",\n  \"incident_description\": \"During a severe win..."
+  },
+  "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "latency_seconds": 3.166,
+    "output_length": 734,
+    "fields_found": 5,
+    "total_required_fields": 5,
+    "extraction_completeness": 1.0,
+    "parse_successful": true,
+    "validation_passed": true,
+    "output_sample": "```json\n{\n  \"claimant_name\": \"Robert James Chen\",\n  \"policy_number\": \"HOM-2023-55219\",\n  \"incident_date\": \"January 25, 2024\",\n  \"claim_amount\": \"$8,500\",\n  \"incident_description\": \"During the severe w..."
+  },
+  "_summary": {
+    "fastest_model": "us.anthropic.claude-sonnet-4-6",
+    "fastest_latency": 2.614,
+    "most_complete_model": "us.anthropic.claude-sonnet-4-6",
+    "most_complete_fields": 5,
+    "models_tested": 2,
+    "models_successful": 2
+  }
+}
