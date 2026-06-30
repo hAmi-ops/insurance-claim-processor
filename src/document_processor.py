@@ -17,7 +17,7 @@ from .prompt_templates import PromptTemplateManager
 logger = logging.getLogger(__name__)
 
 # Default model - Claude 3 Sonnet (replaces deprecated anthropic.claude-v2)
-DEFAULT_MODEL_ID = "anthropic.claude-3-sonnet-20240229-v1:0"
+DEFAULT_MODEL_ID = "us.anthropic.claude-sonnet-4-6"
 
 
 def process_document(
